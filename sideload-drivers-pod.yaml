@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sideload-drivers
+spec:
+  containers:
+    - name: sideload-drivers
+      image: tlehman/sideload-drivers-k8s:dev
+      securityContext:
+        privileged: true
+
