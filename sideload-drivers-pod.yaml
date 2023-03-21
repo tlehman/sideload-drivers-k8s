@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: sideload-drivers
-      image: tlehman/sideload-drivers-k8s:dev
+      image: tlehman/sideload-drivers-k8s
       securityContext:
         privileged: true
 
